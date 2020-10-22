@@ -12,6 +12,7 @@
   ],
   "homepage": "https://github.com/littlezo/getui",
   "license": "MIT",
+  "version": "1.0",
   "authors": [
     {
       "name": "@小小只",
@@ -19,7 +20,9 @@
       "homepage": "https://github.com/littlezo"
     }
   ],
-  "require": {},
+  "require": {
+    "php": ">=7.2.0"
+  },
   "autoload": {
     "psr-4": {
       "Gt\\Client\\": "./src/"
