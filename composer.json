@@ -1,0 +1,33 @@
+{
+  "name": "littlezo/getui",
+  "type": "library",
+  "description": "个推PHP SDK",
+  "keywords": [
+    "littlezo",
+    "getui-php-sdk",
+    "getui-sdk",
+    "getui-php",
+    "getui",
+    "push"
+  ],
+  "homepage": "https://github.com/littlezo/getui",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "@小小只",
+      "email": "soinco@qq.com",
+      "homepage": "https://github.com/littlezo"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0",
+    "guzzlehttp/guzzle": "^7.2",
+    "symfony/cache": "^4.1"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "littlezo\\getui\\": "src/"
+    }
+  }
+}
