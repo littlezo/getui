@@ -1,2 +1,3 @@
 # getui
-个推2.0 PHP SDK 
+
+个推 PSR-4 PHP SDK
